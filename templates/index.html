@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+    <title>Сокращение ссылок</title>
+    <style>
+        body {
+            background-color: rgb(85, 48, 66);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        button {
+            border-radius: 999px;
+            font-family: sans-serif;
+            padding: 7px 27px;
+        }
+        input {
+            border-radius: 999px;
+            font-family: sans-serif;
+            padding: 7px 27px;
+        }
+        button:hover{
+            color:brown;
+            transition: 2s;
+        } 
+    </style>
+</head>
+<body>
+<form method="POST">
+    <input type="url" placeholder='Введите ссылку' name="link" required>
+    <button type="submit">Отправить</button>
+</form>
+</body>
