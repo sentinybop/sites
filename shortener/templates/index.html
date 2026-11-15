@@ -3,31 +3,19 @@
     <title>Сокращение ссылок</title>
     <style>
         body {
-            background-color: rgb(85, 48, 66);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+        cursor: pointer
         }
-        button {
-            border-radius: 999px;
-            font-family: sans-serif;
-            padding: 7px 27px;
-        }
-        input {
-            border-radius: 999px;
-            font-family: sans-serif;
-            padding: 7px 27px;
-        }
-        button:hover{
-            color:brown;
-            transition: 2s;
-        } 
     </style>
+    <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
 <form method="POST">
+    <h1>Сократить ссылку</h1>
     <input type="url" placeholder='Введите ссылку' name="link" required>
     <button type="submit">Отправить</button>
 </form>
