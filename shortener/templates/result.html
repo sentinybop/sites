@@ -1,15 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="/static/style.css">
     <style>
         body {
-            font-family: sans-serif;
-            background-color: rgb(91, 111, 168)
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin:0;
         }
         a {
+            color:rgb(38, 154, 231);
             text-decoration: None;
+            transition: color 0.4s;
+            
         }
-        a:hover { color:tomato;}
+        a:visited{color:tomato}
+        a:hover {
+            color:tomato;
+        }
     </style>
     <title>Ваша ссылка</title>
 </head>
